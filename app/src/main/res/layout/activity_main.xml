@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C9D1E0"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="5dp"
+        android:text=" Welcome to OTP"
+        android:textAllCaps="false"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="10dp"
+        android:text="This is code verification generate app"
+        android:textSize="20sp" />
+
+
+    <LinearLayout
+        android:layout_width="742dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="10dp"
+            android:src="@drawable/bangladesh" />
+
+        <TextView
+            android:layout_width="51dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="45dp"
+            android:gravity="center_vertical"
+            android:text="+88"
+
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/mobilenubber_id"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkboxID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="are you agree to all condition?" />
+
+    <Button
+        android:enabled="false"
+        android:id="@+id/vefiryButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="verify"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:textAllCaps="false" />
+</LinearLayout>

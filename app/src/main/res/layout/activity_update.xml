@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Ul_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2D2D2"
+    android:orientation="vertical"
+    tools:context=".Update">
+
+
+    <EditText
+        android:id="@+id/name_ID"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_marginTop="5dp"
+        android:hint="name"
+        android:inputType="textPersonName"
+        android:textColor="#15485C" />
+
+    <EditText
+        android:id="@+id/Fateher_Id"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_marginTop="5dp"
+        android:hint="Father's name "
+        android:inputType="textPersonName"
+        android:textColor="#15485C" />
+
+    <EditText
+        android:id="@+id/ma_Id"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_marginTop="5dp"
+        android:hint="Mother's name "
+        android:inputType="textPersonName"
+        android:textColor="#15485C" />
+
+    <EditText
+        android:id="@+id/Nid_id"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_marginTop="5dp"
+        android:hint="Nid/Birth Certificate "
+        android:maxLength="17"
+        android:inputType="number"
+        android:textAllCaps="false"
+        android:textColor="#15485C" />
+
+    <EditText
+        android:id="@+id/add_id"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_marginTop="5dp"
+        android:hint="Address "
+        android:inputType="textPersonName"
+        android:textAllCaps="false"
+        android:textColor="#15485C" />
+
+    <Button
+        android:id="@+id/submit_button_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#554181"
+        android:text="Submit" />
+
+
+
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/display_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</LinearLayout>
